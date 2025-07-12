@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API_KEY = 'Bearer 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'; // Replace with your actual API key
-const API_URL = 'https://openrouter.ai/api/v1/chat/completions ';
+const API_URL = 'https://google.ai/api/v1/chat/completions ';
 const MODEL = 'meta-llama/llama-3.1-405b-instruct:free';
 const SYSTEM_PROMPT = `You are an economic impact analyst. Given a news headline, provide 3 effects: one positive, one neutral, and one negative, each short and clear.`;
 
